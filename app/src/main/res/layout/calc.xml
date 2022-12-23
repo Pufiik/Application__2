@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:columnCount="4"
-    tools:context=".MainActivity">
-
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:columnCount="4"
+        android:layout_height="match_parent">
 
         <TextView
             android:id="@+id/ffffffffff"
@@ -185,7 +181,5 @@
             android:layout_margin="@dimen/margin_butt"
             android:textStyle="bold"
             android:layout_columnWeight="1"/>
+    </GridLayout>
 
-
-
-</GridLayout>
